@@ -1,0 +1,211 @@
+:root{
+    --primary-color:#e52165;
+}
+
+*{
+    /* background-color:#848FF0; */
+    color: #831843;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body *{
+    transition: 0.3s;
+    width: max-content;
+    text-align: center;
+}
+
+nav{
+    min-width: 100%;
+    max-height:5rem;
+    background-color:var(--primary-color);
+}
+
+.logo{
+    height: 5rem;
+    width:5rem;
+    padding:0.7rem 1rem 1.5rem 0.5rem;
+}
+
+.nav-pills{
+    color:#0d1137;
+    text-decoration:none;
+    padding:0.5rem 0.2rem;
+    margin:1rem;
+    border-radius:0.5rem;
+    font-weight:bold;
+    border-color: #e52165;
+    background-color: #e52165;   
+}
+
+
+.navigation-links{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    float:right;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+    width: 2rem;
+    padding: 1rem 1rem;
+    /* background-color: #000957; */
+    border-radius: 1rem;
+    text-align:center;
+    /* margin: 1rem;
+    padding: 0rem 1rem; */
+}
+
+.active-page{
+    border: solid 3px;
+    border-color: #0d1137;
+    background-color: #0d1137;
+    color:#e52165;
+}
+
+h1 {
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+h5{width: 320px;
+    padding: 7px;
+    border: 0.5px solid gray;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lables {
+    display: block;
+    margin: auto;
+    color: var(--primary-color);
+    font-size: medium;  
+}
+
+.wrapper{
+    text-align: center;
+    width: auto;
+}
+.input-text {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.4rem 0.5rem;
+    margin: 0.5rem ;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 250px;  
+}
+
+#btn {
+    display: block;
+    font-size: large;
+    border: none;
+    padding: 0.7rem 1rem;
+    margin: 1rem auto;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    width: 100%;
+    outline: #fff;
+    max-width: 150px;
+    cursor: pointer;
+}
+
+#output{
+    text-align: center;
+    margin: auto;
+    color:#0a0000;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.question-container {
+    width: 85%;
+    margin: 1rem auto;
+    font-size: larger;
+    padding: 0;
+}
+.quiz-form{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    width: 100vw;
+    bottom: 0px;
+    position: fixed;
+   
+}
+
+.footer-icon{
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.fa {
+    display: flex;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Round Buttons */
+  .fa {
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    height: 0.2px;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  .fa-github {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }

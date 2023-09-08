@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"><img class="logo" src="img/triangles.png"></a>
+        <div class="navigation-links">
+            <a class="nav-pills" href="index.html">Is Triangle ?</a>
+            <a class ="nav-pills" href="hypotenuse.html">Find Hypotenuse</a>
+            <a class ="nav-pills" href="area.html">Find Area</a>
+            <a class ="nav-pills active-page" href="quiz.html">Quiz</a>
+        </div>
+    </nav>
+    <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label> <input type="radio" name="question1" value="45°"> 45° </label>
+                <label> <input type="radio" name="question1" value="60°"> 60° </label>
+                <label> <input type="radio" name="question1" value="90°"> 90° </label>
+            </div>
+            <div class="question-container">
+                <p> If a triangle has an angle of 90 degrees, what is it called? </p>
+                <label> <input type="radio" name="question2" value="acute"> acute </label>
+                <label> <input type="radio" name="question2" value="obtuse"> obtuse </label>
+                <label> <input type="radio" name="question2" value="right angled"> right angled </label>
+            </div>
+            <div class="question-container">
+                <p class="question">A Triangle can have</p>
+                <label><input type="radio" name="question3" value="one right angle">one right angle</label>
+                <label><input type="radio" name="question3" value="two right angles">two right angles </label>
+            </div>
+            <div class="question-container">
+                <p class="question">Which of the following can form a right angled triangle</p>
+                <label><input type="radio" name="question4" value="14,15,26">14, 15, 26</label>
+                <label ><input type="radio" name="question4" value="12,16,20">12, 16, 20</label>  
+            </div>
+    </form>
+    <button id="btn">Submit Form </button>
+    <div id="output"></div>
+
+    <div class="footer">
+        <h2 class="footer-icon"> &copy; | 2023 | shalini chahar</h2> 
+        <div> 
+            <a href="https://github.com/shalinichahar" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/shalini-chahar-a93a0b185/" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-google"></a>
+        <div>
+    </div> 
+    <script src="quiz.js"></script>
+</body>
+
+</html>
